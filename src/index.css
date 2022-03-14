@@ -1,0 +1,200 @@
+.App {
+  font-family: "Helvetica Neue";
+  color: #192024;
+  background-color:#F9FAFB;
+
+}
+
+.header{
+  display: flex; 
+  justify-content: left;
+  background-color:#ffffff;
+  border-bottom: 2px solid #d9e2e8;
+}
+
+.logo{
+  display: flex;
+  max-width: 30%;
+  padding: 19px 16px;
+}
+
+.main{
+  padding-top: 67px;
+  background-color:#F9FAFB;
+  padding-left: 94px;
+}
+
+.main-heading{
+  padding-bottom: 73px; 
+  font-family: "Helvetica Neue";
+  font-size: 44px;
+  font-weight: 900;
+  color:#000000
+
+}
+
+
+.main-subheading{
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-weight: bold;
+  color:#192024
+}
+
+.filters{
+  margin-top: 23px;
+  padding-bottom: 56px;
+}
+
+.filters label{
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  font-weight: normal;
+  color:#192024;
+  margin-right: 24px; 
+}
+
+.filters input {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  vertical-align:middle;
+}
+
+
+.center-content {
+  display: flex; 
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right
+}
+
+.text-left {
+  text-align: left;
+}
+
+.airline-Name{
+  font-family: 'HelveticaNeue';
+  font-weight: bold;
+  font-size: 16px;
+  color: #192024;
+
+}
+
+.airline-allianceName{
+  font-family: 'HelveticaNeue';
+  font-weight: normal;
+  font-size: 14px;
+  color: #192024;
+
+}
+
+.airline-img{
+  height: 32px !important;
+  width: 32px !important;
+}
+
+
+.airLine-Detail{
+  justify-self: start;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.airLine-Detail span {
+  display: block;
+  font-size: 14px;
+  padding-left: 16px;
+}
+
+
+.airLine-Detail .airline-website{
+  color: #5a6872;
+  display: none;
+}
+
+.airLine-Detail .airline-phone{
+  display: none;
+}
+.airLine-Detail .airline-allianceName{
+  display: none;
+}
+
+.card:hover .airLine-Detail .airline-website{
+  display: block;
+  color: #5a6872;
+
+}
+
+.card:hover .airLine-Detail .airline-phone{
+  display: block;
+}
+.card:hover .airLine-Detail .airline-allianceName{
+  display: block;
+}
+
+.card:hover {
+  border: solid 1px #363f45 !important;
+}
+
+.gridBox {
+  height: 240px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0-1px 4px 0 rgba(25, 32, 36, 0.04), 0 3px 6px 0 rgba(25, 32, 36, 0.16);
+  border: 1px solid #aeb2b4  ;
+  margin: 16px;  
+}
+
+.AirlineRow {
+  display: flex;
+  align-items: center;
+  background-color: var(--background-gray-color);
+  border-top: 1px solid var(--main-border-color);
+  flex-direction: row !important;
+  height: 100% !important;
+  width: 100% !important; 
+}
+
+
+.airLineGridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 78px;
+
+}
+
+
+
+.center {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.norecord {
+  text-align: center;
+  color: #c11717;
+}
+
+.loader-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
